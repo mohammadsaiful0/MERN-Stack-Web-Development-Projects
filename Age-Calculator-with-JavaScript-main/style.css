@@ -1,0 +1,30 @@
+.results-itmes{
+    width: 100%;
+    height: 150px;
+    border-radius: 10px;
+    background-color: #171C2A;
+    color: #fff;
+    vertical-align: middle !important;
+    justify-content: center;
+    margin: auto 0px;
+}
+body{
+    background-color:#F7F7F9;
+}
+
+#NameOfUser{
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.w-md-100{
+    width: 50% !important;
+}
+@media screen and (max-width: 768px) {
+    .w-md-100{
+        width: 100% !important;
+    }
+    .mt-sm-2{
+        margin: 20px 0px ;
+    }
+}
