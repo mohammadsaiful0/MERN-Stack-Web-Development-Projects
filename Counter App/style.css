@@ -1,0 +1,85 @@
+*, *::after, *::before{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    height: 100%;
+}
+
+body{
+   background-image: url(./bg.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+}
+
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+.counter{
+    background: #fff;
+    padding:40px  20px;
+    border-radius: 10px;
+    text-align: center;
+    
+    
+    
+}
+.counter h1{
+    font-size: 70px;
+    margin-bottom:  25px;
+}
+.counter .counter-button{
+    color: #262626;
+    padding: 10px 35px;
+    margin:0px 5px ;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition:  0.5s;
+
+}
+button#decrement{
+    background: #f6e58d;
+}
+
+button#decrement:hover{
+    background: #f79f1f;
+    color: #fff;
+}
+
+button#reset{
+     background: #f3a68a;
+
+}
+button#reset:hover{
+    background: #ea2027;
+    color: #fff;
+}
+
+button#increment{
+    background: #c4e538;
+
+}
+button#increment:hover{
+   background: #009432;
+   color: #fff;
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+    .counter .counter-button{
+        padding: 10px 20px !important;
+        margin:  0px 2px !important;
+        font-size: 16px  !important;
+    }
+    .counter{
+        padding: 40px 10px !important;
+    }
+  }
+  
